@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo hình chữ nhật</title>
+</head>
+<body>
+<script>
+  var canvas = document.getElementById("veHinhChuNhat");
+  if (canvas.getContext) {
+    var chuNhat = canvas.getContext("2d");
+    chuNhat.fillStyle = 'basic';    // color of fill
+    chuNhat.fillRect(100, 100, 300, 200); // create rectangle
+  }
+</script>
+</body>
+</html>
